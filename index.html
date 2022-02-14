@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emailer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Emailer</h1>
+      </div>
+    </header>
+    <div class="content">
+      <div class="container">
+        <div class="subtitle">
+          <p>1. Выберите Ваш файл с адресами</p>
+          <p class="requirement">Требуемое расширение .xlsx</p>
+          <p>2. Нажмите на кнопку "Проверить"</p>
+        </div>
+
+        <div class="form">
+          <div class="form__element">
+            <input class="input__data" type="file" accept=".xls,.xlsx" />
+          </div>
+          <div class="form__element">
+            <button class="btn__validate">Проверить</button>
+          </div>
+        </div>
+        <div class="final__result">
+          <h2>Результат:</h2>
+          <p class="final__result-text">Здесь появится результат...</p>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.1/xlsx.full.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
