@@ -57,6 +57,7 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .form__element button {
@@ -67,6 +68,7 @@ ul li {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  margin: 20px 0;
 }
 
 .final__result h2 {
