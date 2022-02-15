@@ -69,11 +69,11 @@ ul li {
   cursor: pointer;
   border-radius: 5px;
   margin: 20px 0;
-  transition: background-color 0.2s;
+  transition: background-color 0.3s;
 }
 
 .form__element button:hover {
-  background-color: #167de4;
+  background-color: #0cb675;
 }
 
 .final__result h2 {
